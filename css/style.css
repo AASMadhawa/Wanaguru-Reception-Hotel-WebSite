@@ -1,0 +1,43 @@
+.gallery_header{
+    height: 50px;
+}
+
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.intro-2 {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
